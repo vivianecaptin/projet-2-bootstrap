@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sacramento&display=swap%27');
+
+
+
+/**************** Nav bar *******************/
+
+
+
+.logo {
+    max-width: 150px;
+}
+
+.btn--book {
+    color: white;
+    background-color: #0E018A;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: lighter;
+}
+.btn--lang {
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: lighter;
+}
+
+#navbarTogglerDemo02 {
+    justify-content: flex-end;
+    font-weight: lighter;
+}
+
+.nav-item {
+    margin: 20px;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #EADECE;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+
+.navbar-collapse {
+    flex-grow: 0!important;
+}
+
+
+
+
+/* CARTES */
+
+
+.card-link { 
+    position:relative; 
+    }
+
+
+.card-container {
+    margin-top: 70px;
+}
+
+.card-body {
+    background-color: #F3F4F4;
+}
+
+.card-text {
+    font-family: Montserrat;
+}
+
+.text-dark {
+    font-family: montserrat;
+}
+
+.card-title {
+    font-family: Sacramento;
+    font-size: 40px;
+    color: #0E018A;
+}
+
+.card {
+    border: none;
+    background-clip: none;
+    border-radius: none;
+}
+
+.h5 {
+    font-family: montserrat;
+    font-weight: lighter;
+}
+
+.h6 {
+    font-family: montserrat;
+}
+
+p {
+    font-family: montserrat;
+    font-size: 12px;
+    color: grey;
+}
+
+.col-5-w {
+    width: 50%;
+}
+
+.card-time {
+    margin-top: 35px;
+    margin-bottom: 37px;
+}
+
+
+.card-infos {
+    background-color: #EADECE;
+}
+
+.container-infos {
+    align-items: center;
+    margin: 0px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 76px;
+}
+
+
+
+
+
+
+/* --------------------FOOTER------------------ */
+
+
+
+
+.footer-bg {
+    background-color: #0E018A;
+    font-family: montserrat;
+}
+
+.logo-blanc {
+    width: 60%;
+}
+
+
+@media screen and (max-width: 500px) {
+
+.infos-row {
+    flex-wrap: wrap;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+.card-container {
+    margin-top: 40px;
+}
+
+}
+    
+
