@@ -37,6 +37,10 @@ h2 {
     color: #EADECE;
 }
 
+.fontMontserrat {
+    font-family: 'Montserrat light';
+}
+
 
 iframe {
     height:450px;
@@ -60,4 +64,48 @@ iframe {
     h2{
         font-size:2em;
     }
+}
+
+/* footer */
+footer {
+    color: #0E018A;
+    background-color: #F6F2EA;
+    font-family: 'Montserrat light';
+    font-size: 12px;
+}
+
+.buttonFooter{
+    background-color: #0E018A;
+    color: #EADECE;
+    font-family: 'Montserrat';
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    color: #0E018A;
+    font-size: 2em;
+}
+
+.logoFooter img{
+    max-width:150px;
+}
+
+footer .partLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+footer .partRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+        footer .partRight{
+        justify-content: space-between;
+    }
+
 }
