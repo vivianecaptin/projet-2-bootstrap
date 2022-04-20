@@ -132,22 +132,22 @@ h3,p{
 
 /* footer */
 footer {
-    color: #0E018A;
-    background-color: #F6F2EA;
+    color:#fff;
+    background-color: #0E018A;
     font-family: 'Montserrat light';
     font-size: 12px;
 }
 
 .buttonFooter{
-    background-color: #0E018A;
-    color: #EADECE;
+    background-color: #fff ;
+    color:  #0E018A;
     font-family: 'Montserrat';
 }
 
 .icons{
     display: flex;
     justify-content: space-around;
-    color: #0E018A;
+    color: #fff;
     font-size: 2em;
 }
 
@@ -179,6 +179,6 @@ footer .partRight{
 @media screen and (min-width: 768px) {
     .adressFooter {
         border-right: 1px solid;
-        border-color: #0E018A;
+        border-color: #fff;
     }
 }
