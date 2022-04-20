@@ -1,0 +1,84 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sacramento&display=swap%27');
+
+/* Mise en page */
+
+.container-fluid.container-photo {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media screen and (max-width:991px){
+    .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
+body{
+    font-family: montserrat light;
+}
+.background-beige{
+    background-color:#F6F2EA;
+}
+
+/* TEXTE */
+
+@media screen and (min-width:768px){
+    h3{
+        font-size: 1.25rem;
+    }
+    
+}
+.blue{
+    color:#0E018A;
+}
+
+h1,h2{
+    font-size:3rem;
+}
+
+h3,p{
+    font-size: 1rem;
+}
+
+.sacramento{
+    font-family:sacramento;
+}
+/* bouton radio */
+.form-check-input:checked{
+    background-color:#E2C453;
+    border-color: #E2C453;
+    
+}
+.form-check-input:focus{
+    box-shadow: none;
+}
+.form-select, .form-control, .form-check {
+    font-size: 0.75rem;
+}
+/* bouton  */
+.btn{
+    background-color:#E2C453;
+}
+
+.btn:focus{
+    box-shadow: 0 0 0 .25rem #f0ecdc;
+}
+
+/* Inputs formulaire  */
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #d5cdaf;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #f0ecdc;
+}
+.form-select:focus {
+    border-color:#d5cdaf;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #f0ecdc;
+}
