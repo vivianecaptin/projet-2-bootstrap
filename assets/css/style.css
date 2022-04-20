@@ -136,32 +136,57 @@ p {
 /* --------------------FOOTER------------------ */
 
 
+/* footer */
+footer {
+    color: #0E018A;
+    background-color: #F6F2EA;
+    font-family: 'Montserrat light';
+    font-size: 12px;
+}
 
-
-.footer-bg {
+.buttonFooter{
     background-color: #0E018A;
-    font-family: montserrat;
+    color: #EADECE;
+    font-family: 'Montserrat';
 }
 
-.logo-blanc {
-    width: 60%;
+.icons{
+    display: flex;
+    justify-content: space-around;
+    color: #0E018A;
+    font-size: 2em;
 }
 
-
-@media screen and (max-width: 500px) {
-
-.infos-row {
-    flex-wrap: wrap;
+.logoFooter img{
+    max-width:150px;
 }
 
-.logo {
-    max-width: 80px;
+footer .partLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+footer .partRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.card-container {
-    margin-top: 40px;
+@media screen and (max-width: 768px) {
+    footer .partLeft{
+        justify-content: space-between;
+    }
+    footer .partRight{
+        justify-content: space-between;
+    }
 }
 
+@media screen and (min-width: 768px) {
+    .adressFooter {
+        border-right: 1px solid;
+        border-color: #0E018A;
+    }
 }
     
 
