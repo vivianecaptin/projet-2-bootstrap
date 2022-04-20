@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    color: #E2C453;
+
+}
+
+.title {
+    font-family: montserrat, sans-serif;
+    color: #0E018A;
+    padding-left:100px;
+
+}
+
+.name {
+    color: #0E018A;
+}
+
+.bg {
+    background-color:  #F6F2EA;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list {
+    padding-left:100px;
+}
+
+.deco {
+    font-family: montserrat;
+    color: #0E018A;
+}
+
+@media screen and (max-width: 768px){
+.list {
+    padding-left:0;
+}
+.title {
+    padding-left:0;
+
+}
+    
+}
+
+
+
