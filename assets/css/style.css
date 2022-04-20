@@ -1,6 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sacramento&display=swap%27');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    color: #E2C453;
+
+}
+
+.title {
+    font-family: montserrat, sans-serif;
+    color: #0E018A;
+    padding-left:150px;
+    padding-right:100px;
+
+}
+
+.name {
+    color: #0E018A;
+}
+
+.bg {
+    background-color:  #F6F2EA;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list {
+    padding-left:150px;
+    padding-right:100px;
+}
+
+.deco {
+    font-family: montserrat;
+    color: #0E018A;
+}
+
+@media screen and (max-width: 768px){
+.list {
+    padding-left:0;
+    padding-right:0;
+}
+.title {
+    padding-left:0;
+    padding-right:0;
+
+}
+    
+}
 
 
 /**************** Nav bar *******************/
@@ -136,24 +190,23 @@ p {
 /* --------------------FOOTER------------------ */
 
 
-/* footer */
 footer {
-    color: #0E018A;
-    background-color: #F6F2EA;
+    color:#fff;
+    background-color: #0E018A;
     font-family: 'Montserrat light';
     font-size: 12px;
 }
 
 .buttonFooter{
-    background-color: #0E018A;
-    color: #EADECE;
+    background-color: #fff ;
+    color:  #0E018A;
     font-family: 'Montserrat';
 }
 
 .icons{
     display: flex;
     justify-content: space-around;
-    color: #0E018A;
+    color: #fff;
     font-size: 2em;
 }
 
@@ -185,8 +238,6 @@ footer .partRight{
 @media screen and (min-width: 768px) {
     .adressFooter {
         border-right: 1px solid;
-        border-color: #0E018A;
+        border-color: #fff;
     }
 }
-    
-
