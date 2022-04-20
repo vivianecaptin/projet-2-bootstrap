@@ -190,30 +190,55 @@ p {
 /* --------------------FOOTER------------------ */
 
 
-
-
-.footer-bg {
+/* footer */
+footer {
+    color:#fff;
     background-color: #0E018A;
-    font-family: montserrat;
+    font-family: 'Montserrat light';
+    font-size: 12px;
 }
 
-.logo-blanc {
-    width: 60%;
+.buttonFooter{
+    background-color: #fff ;
+    color:  #0E018A;
+    font-family: 'Montserrat';
 }
 
-
-@media screen and (max-width: 500px) {
-
-.infos-row {
-    flex-wrap: wrap;
+.icons{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 2em;
 }
 
-.logo {
-    max-width: 80px;
+.logoFooter img{
+    max-width:150px;
 }
 
-.card-container {
-    margin-top: 40px;
+footer .partLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+footer .partRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+    footer .partLeft{
+        justify-content: space-between;
+    }
+    footer .partRight{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .adressFooter {
+        border-right: 1px solid;
+        border-color: #fff;
+    }
 }
