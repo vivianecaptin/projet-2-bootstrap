@@ -16,7 +16,8 @@ span {
 .title {
     font-family: montserrat, sans-serif;
     color: #0E018A;
-    padding-left:100px;
+    padding-left:150px;
+    padding-right:100px;
 
 }
 
@@ -33,7 +34,8 @@ ul {
 }
 
 .list {
-    padding-left:100px;
+    padding-left:150px;
+    padding-right:100px;
 }
 
 .deco {
@@ -44,9 +46,11 @@ ul {
 @media screen and (max-width: 768px){
 .list {
     padding-left:0;
+    padding-right:0;
 }
 .title {
     padding-left:0;
+    padding-right:0;
 
 }
     
