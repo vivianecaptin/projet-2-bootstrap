@@ -93,12 +93,19 @@ h3,p{
     color: white;
     background-color: #0E018A;
     text-align: center;
+    padding-top: 7px;
     border: none;
     border-radius: 5px;
     padding-right: 20px;
     padding-left: 20px;
     font-weight: lighter;
 }
+
+.btn--book:hover {
+    text-decoration:none;
+    color: white;
+}
+
 .btn--lang {
     text-align: center;
     border-radius: 5px;
@@ -128,6 +135,7 @@ h3,p{
 .navbar-collapse {
     flex-grow: 0!important;
 }
+
 
 
 /* footer */
