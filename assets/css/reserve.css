@@ -1,8 +1,6 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sacramento&display=swap%27');
+
 
 /* Mise en page */
 
@@ -19,7 +17,7 @@
     
 }
 body{
-    font-family: montserrat light;
+    font-family: montserrat, sans-serif;
 }
 .background-beige{
     background-color:#F6F2EA;
@@ -90,7 +88,7 @@ h3,p{
 }
 
 .btn--book {
-    color: white;
+    color: white !important;
     background-color: #0E018A;
     text-align: center;
     padding-top: 7px;
@@ -106,29 +104,12 @@ h3,p{
     color: white;
 }
 
-.btn--lang {
-    text-align: center;
-    border-radius: 5px;
+.btn {
     background-color: white;
-    font-weight: lighter;
-}
-
-#navbarTogglerDemo02 {
-    justify-content: flex-end;
-    font-weight: lighter;
 }
 
 .nav-item {
     margin: 20px;
-}
-
-.navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: #EADECE;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
 }
 
 
@@ -136,20 +117,20 @@ h3,p{
     flex-grow: 0!important;
 }
 
+/* FOOTER */
 
-
-/* footer */
 footer {
     color:#fff;
     background-color: #0E018A;
-    font-family: 'Montserrat light';
+    font-family: montserrat, sans-serif;
     font-size: 12px;
 }
 
 .buttonFooter{
-    background-color: #fff ;
+    background-color: #fff !important;
     color:  #0E018A;
     font-family: 'Montserrat';
+    margin-left: 40px;
 }
 
 .icons{
